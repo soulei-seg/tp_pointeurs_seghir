@@ -13,11 +13,11 @@ int main(int argc, char *argv[]) {
     // vers des entiers et qui échange le contenu des deux entiers pointés.
 
     int var1 {1}, var2 {2}, *pointer_fa1 {0}, *pointer_fa2 {0};
-
-	pointer_fa1 = &var1;
+	
+    pointer_fa1 = &var1;
     pointer_fa2 = &var2;
-
-	swap(*pointer_fa1, *pointer_fa2);
+	
+    swap(*pointer_fa1, *pointer_fa2);
 
     // Fonction B
     // Ecrire une fonction qui a comme paramètres un tableau d'entiers 
